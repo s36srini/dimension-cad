@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/OrthoticCpp_Workbench.svg</file>
+        <file>icons/OrthoticCpp_CreateRigidInsole.svg</file>
+    </qresource>
+    <qresource prefix="/ui">
+        <file>ui/RigidInsole.ui</file>
+    </qresource>
+</RCC>

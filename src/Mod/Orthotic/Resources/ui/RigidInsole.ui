@@ -1,0 +1,68 @@
+<ui version="4.0">
+<widget class="QWidget" name="rigidInsole">
+    <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+            <layout class="QGridLayout" name="gridLayout">
+                <item row="0" column="0">
+                    <widget class="QPushButton" name="selectHeel">
+                        <property name="text">
+                            <string>Select Heel</string>
+                        </property>
+                    </widget>
+                </item>
+                <item row="0" column="1">
+                    <widget class="QPushButton" name="selectFirstMetatarsal">
+                        <property name="text">
+                            <string>Select 1st Metatarsal</string>
+                        </property>
+                    </widget>
+                </item>
+                <item row="1" column="0">
+                    <widget class="QPushButton" name="selectFifthMetatarsal">
+                        <property name="text">
+                            <string>Select 5th Metatarsal</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </item>
+        <item>
+            <widget class="QGroupBox" name="groupBox">
+                <property name="title">
+                    <string>Selection Status</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <item>
+                        <widget class="QLabel" name="statusHeel">
+                            <property name="text">
+                                <string>Heel: Not selected</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="statusFirstMetatarsal">
+                            <property name="text">
+                                <string>1st Metatarsal: Not selected</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="statusFifthMetatarsal">
+                            <property name="text">
+                                <string>5th Metatarsal: Not selected</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QDialogButtonBox" name="buttonBox">
+                            <property name="standardButtons">
+                                <set>QDialogButtonBox::StandardButton::Ok|QDialogButtonBox::StandardButton::Cancel</set>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+        </item>
+    </layout>
+</widget>
+</ui>
